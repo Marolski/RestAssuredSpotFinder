@@ -1,0 +1,7 @@
+testClasses\LoginMethod.class
+baseClasses\BaseMethod.class
+baseClasses\BaseApi.class
+baseClasses\BaseReport.class
+models\SettingModel.class
+models\UserModel.class
+testClasses\RegisterMethod.class

@@ -1,0 +1,1803 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@83e4e8776725a49f9e738b19d1e718e7404d6c19/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">kwi 13, 2023 04:14:32 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Logowanie_użytkownika</a><a class="dropdown-item" href="#">Zmiana_danych_i_ustawień_użytkownika</a><a class="dropdown-item" href="#">Rejestracja_użytkownika</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.004 Logowanie użytkownika - przypadek pozytywny</p>
+            <p class="text-sm"><span>16:14:33 PM</span> / <span>3,226 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
+<h5 class="test-status text-pass">USER.PT.004 Logowanie użytkownika - przypadek pozytywny</h5>
+<span class='badge badge-success'>04.13.2023 16:14:33</span>
+<span class='badge badge-danger'>04.13.2023 16:14:36</span>
+<span class='badge badge-default'>3,226 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="2">Logowanie za pomocą username</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:35</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:35</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:35</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcm9sIiwidWlkIjoiZmE2NjI3ZTItNjdkZi00ZWExLWJiNWUtOGE0YTdiNGVlYmM3IiwiaWF0IjoxNjgxMzk1Mjc1fQ.lYu95paGisOdJKYGL5TTc_1NIu-9YOW6E466Kt5Oi88",
+    "user": {
+        "uid": "fa6627e2-67df-4ea1-bb5e-8a4a7b4eebc7",
+        "username": "marol",
+        "email": "mbrzoska303@gmail.com",
+        "isAdmin": false,
+        "isSuperAdmin": false,
+        "configuration": "{\"\\theme\"\\:\"\\dark\"\\,\"\\language\"\\:\"\\en\"\\}",
+        "mobileToken": null,
+        "mobileOS": null
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="3">Logowanie za pomocą email</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:36</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:36</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:36</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcm9sIiwidWlkIjoiZmE2NjI3ZTItNjdkZi00ZWExLWJiNWUtOGE0YTdiNGVlYmM3IiwiaWF0IjoxNjgxMzk1Mjc2fQ.sQ7gQ2TbZEscen_5TsqkegkayjMNYnwItPytmaWKMq0",
+    "user": {
+        "uid": "fa6627e2-67df-4ea1-bb5e-8a4a7b4eebc7",
+        "username": "marol",
+        "email": "mbrzoska303@gmail.com",
+        "isAdmin": false,
+        "isSuperAdmin": false,
+        "configuration": "{\"\\theme\"\\:\"\\dark\"\\,\"\\language\"\\:\"\\en\"\\}",
+        "mobileToken": null,
+        "mobileOS": null
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="Logowanie_użytkownika"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.005 Logowanie użytkownika - przypadek negatywny - nieaktywne konto</p>
+            <p class="text-sm"><span>16:14:36 PM</span> / <span>0,494 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
+<h5 class="test-status text-pass">USER.PT.005 Logowanie użytkownika - przypadek negatywny - nieaktywne konto</h5>
+<span class='badge badge-success'>04.13.2023 16:14:36</span>
+<span class='badge badge-danger'>04.13.2023 16:14:36</span>
+<span class='badge badge-default'>0,494 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Logowanie_użytkownika</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:36</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:36</td>
+        <td>
+          Otrzymano kod statusu: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:36</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "error": {
+        "message": "Invalid credentials"
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.006 Logowanie użytkownika - przypadek negatywny - błędne dane</p>
+            <p class="text-sm"><span>16:14:36 PM</span> / <span>0,711 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=5</span></div>
+<h5 class="test-status text-pass">USER.PT.006 Logowanie użytkownika - przypadek negatywny - błędne dane</h5>
+<span class='badge badge-success'>04.13.2023 16:14:36</span>
+<span class='badge badge-danger'>04.13.2023 16:14:37</span>
+<span class='badge badge-default'>0,711 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="6">Logowanie za pomocą nieprawidłowej nazwy użytkownika</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:37</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:37</td>
+        <td>
+          Otrzymano kod statusu: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:37</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "error": {
+        "message": "Invalid credentials"
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="7">Logowanie za pomocą nieprawidłowego hasła</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:37</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:37</td>
+        <td>
+          Otrzymano kod statusu: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:37</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "error": {
+        "message": "Invalid credentials"
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="Logowanie_użytkownika"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.007 Reset hasła - przypadek pozytywny</p>
+            <p class="text-sm"><span>16:14:37 PM</span> / <span>1,587 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=8</span></div>
+<h5 class="test-status text-pass">USER.PT.007 Reset hasła - przypadek pozytywny</h5>
+<span class='badge badge-success'>04.13.2023 16:14:37</span>
+<span class='badge badge-danger'>04.13.2023 16:14:39</span>
+<span class='badge badge-default'>1,587 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Logowanie_użytkownika</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "message": "Email sended"
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="Logowanie_użytkownika"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.008 Reset hasła - przypadek negatywny - nieistniejący email</p>
+            <p class="text-sm"><span>16:14:39 PM</span> / <span>0,186 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=9</span></div>
+<h5 class="test-status text-pass">USER.PT.008 Reset hasła - przypadek negatywny - nieistniejący email</h5>
+<span class='badge badge-success'>04.13.2023 16:14:39</span>
+<span class='badge badge-danger'>04.13.2023 16:14:39</span>
+<span class='badge badge-default'>0,186 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Logowanie_użytkownika</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Otrzymano kod statusu: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "error": {
+        "message": "Bad Request"
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.011 Zmiana danych użytkownika - przypadek pozytywny</p>
+            <p class="text-sm"><span>16:14:39 PM</span> / <span>3,05 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=10</span></div>
+<h5 class="test-status text-pass">USER.PT.011 Zmiana danych użytkownika - przypadek pozytywny</h5>
+<span class='badge badge-success'>04.13.2023 16:14:39</span>
+<span class='badge badge-danger'>04.13.2023 16:14:42</span>
+<span class='badge badge-default'>3,05 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="11">Pobranie tokenu</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:39</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcm9sIiwidWlkIjoiZmE2NjI3ZTItNjdkZi00ZWExLWJiNWUtOGE0YTdiNGVlYmM3IiwiaWF0IjoxNjgxMzk1MjgwfQ.qQGkaKpWR4DWkyAIp9wmIVNIKbwVfDDPbZwiLXBSlZU",
+    "user": {
+        "uid": "fa6627e2-67df-4ea1-bb5e-8a4a7b4eebc7",
+        "username": "marol",
+        "email": "mbrzoska303@gmail.com",
+        "isAdmin": false,
+        "isSuperAdmin": false,
+        "configuration": "{\"\\theme\"\\:\"\\dark\"\\,\"\\language\"\\:\"\\en\"\\}",
+        "mobileToken": null,
+        "mobileOS": null
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="12">Zmiana nazwy użytkownika</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:40</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:40</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:40</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "password": "$2b$12$s7qY5m11GYsym/L.x5XfN.nKSs/AYGoaOcusIArmk0th5ThMIb5PS",
+    "email": "mbrzoska303@gmail.com",
+    "username": "nowyLogin"
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="13">Logowanie za pomoca nowej nazwy użytkownika</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:40</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:40</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:40</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5vd3lMb2dpbiIsInVpZCI6ImZhNjYyN2UyLTY3ZGYtNGVhMS1iYjVlLThhNGE3YjRlZWJjNyIsImlhdCI6MTY4MTM5NTI4MX0.UwXxcsdbdFSipioB4TSegakNvtLY-GN0gdzWyy8feVU",
+    "user": {
+        "uid": "fa6627e2-67df-4ea1-bb5e-8a4a7b4eebc7",
+        "username": "nowyLogin",
+        "email": "mbrzoska303@gmail.com",
+        "isAdmin": false,
+        "isSuperAdmin": false,
+        "configuration": "{\"\\theme\"\\:\"\\dark\"\\,\"\\language\"\\:\"\\en\"\\}",
+        "mobileToken": null,
+        "mobileOS": null
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="14">Zmiana email</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:41</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:41</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:41</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "password": "$2b$12$rrKg2Km9KqFlU81mFFE74OxPJMds18qjzce7h2FwX6QcRrMuh92xm",
+    "email": "nowyemail@gmail.com",
+    "username": "marol"
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="15">Logowanie za pomoca nowego email</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:41</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:41</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:41</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcm9sIiwidWlkIjoiZmE2NjI3ZTItNjdkZi00ZWExLWJiNWUtOGE0YTdiNGVlYmM3IiwiaWF0IjoxNjgxMzk1MjgyfQ.NBfH_2FaDj3_nc5v514J3aWIXtQEzk7jBeLA5qq6Nns",
+    "user": {
+        "uid": "fa6627e2-67df-4ea1-bb5e-8a4a7b4eebc7",
+        "username": "marol",
+        "email": "nowyemail@gmail.com",
+        "isAdmin": false,
+        "isSuperAdmin": false,
+        "configuration": "{\"\\theme\"\\:\"\\dark\"\\,\"\\language\"\\:\"\\en\"\\}",
+        "mobileToken": null,
+        "mobileOS": null
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="16">Zmiana na dane bazowe</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:42</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:42</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:42</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "password": "$2b$12$BxVNZZe.xpyAUDLpigUBye9LC9ncQu0Gdhl57O1W9zzKRgwnvlFXG",
+    "email": "mbrzoska303@gmail.com",
+    "username": "marol"
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.012 Zmiana ustawień użytkownika - przypadek pozytywny</p>
+            <p class="text-sm"><span>16:14:42 PM</span> / <span>0,863 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=17</span></div>
+<h5 class="test-status text-pass">USER.PT.012 Zmiana ustawień użytkownika - przypadek pozytywny</h5>
+<span class='badge badge-success'>04.13.2023 16:14:42</span>
+<span class='badge badge-danger'>04.13.2023 16:14:43</span>
+<span class='badge badge-default'>0,863 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="18">Pobranie tokenu</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:42</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:42</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:42</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcm9sIiwidWlkIjoiZmE2NjI3ZTItNjdkZi00ZWExLWJiNWUtOGE0YTdiNGVlYmM3IiwiaWF0IjoxNjgxMzk1MjgzfQ.xsaI_UVIpWMsoPiJdP-IkYu2XqtHWPK-TTcuhLfM3SI",
+    "user": {
+        "uid": "fa6627e2-67df-4ea1-bb5e-8a4a7b4eebc7",
+        "username": "marol",
+        "email": "mbrzoska303@gmail.com",
+        "isAdmin": false,
+        "isSuperAdmin": false,
+        "configuration": "{\"\\theme\"\\:\"\\dark\"\\,\"\\language\"\\:\"\\en\"\\}",
+        "mobileToken": null,
+        "mobileOS": null
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="19">Zmiana stylu strony na jasny</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:43</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:43</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:43</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "message": "Configuration saved"
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="20">Zmiana języka na angielski</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:43</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:43</td>
+        <td>
+          Otrzymano kod statusu: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:43</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "message": "Configuration saved"
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="Rejestracja_użytkownika"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.001 Rejestracja użytkownika - przypadek pozytywny</p>
+            <p class="text-sm"><span>16:14:43 PM</span> / <span>1,48 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=21</span></div>
+<h5 class="test-status text-pass">USER.PT.001 Rejestracja użytkownika - przypadek pozytywny</h5>
+<span class='badge badge-success'>04.13.2023 16:14:43</span>
+<span class='badge badge-danger'>04.13.2023 16:14:44</span>
+<span class='badge badge-default'>1,48 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Rejestracja_użytkownika</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:44</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:44</td>
+        <td>
+          Otrzymano kod statusu: 201
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:44</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "message": "User created"
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag="Rejestracja_użytkownika"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.002 Rejestracja użytkownika - przypadek negatywny - użytkownik o podanych danych już istnieje</p>
+            <p class="text-sm"><span>16:14:44 PM</span> / <span>0,255 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=22</span></div>
+<h5 class="test-status text-pass">USER.PT.002 Rejestracja użytkownika - przypadek negatywny - użytkownik o podanych danych już istnieje</h5>
+<span class='badge badge-success'>04.13.2023 16:14:44</span>
+<span class='badge badge-danger'>04.13.2023 16:14:45</span>
+<span class='badge badge-default'>0,255 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Rejestracja_użytkownika</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymano kod statusu: 409
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "error": {
+        "message": "User exist"
+    }
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">USER.PT.003 Rejestracja użytkownika - przypadek negatywny - błędne dane</p>
+            <p class="text-sm"><span>16:14:45 PM</span> / <span>0,746 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=23</span></div>
+<h5 class="test-status text-pass">USER.PT.003 Rejestracja użytkownika - przypadek negatywny - błędne dane</h5>
+<span class='badge badge-success'>04.13.2023 16:14:45</span>
+<span class='badge badge-danger'>04.13.2023 16:14:45</span>
+<span class='badge badge-default'>0,746 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="24">Błędny format email</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymano kod statusu: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "errors": [
+        {
+            "value": "@xn--sowiski-njbv.com.pl",
+            "msg": "Invalid value",
+            "param": "email",
+            "location": "body"
+        }
+    ]
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="25">Brak adresu email</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymano kod statusu: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "errors": [
+        {
+            "value": "@null",
+            "msg": "Invalid value",
+            "param": "email",
+            "location": "body"
+        }
+    ]
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="26">Brak hasła</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymano kod statusu: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "errors": [
+        {
+            "value": "",
+            "msg": "Invalid value",
+            "param": "password",
+            "location": "body"
+        }
+    ]
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="27">Brak nazwy użytkownika</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Test zakończony powodzeniem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymano kod statusu: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>16:14:45</td>
+        <td>
+          Otrzymana odpowiedź: {
+    "errors": [
+        {
+            "value": "",
+            "msg": "Invalid value",
+            "param": "username",
+            "location": "body"
+        }
+    ]
+}
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Tags</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+</span>
+<p class="name">Logowanie_użytkownika</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Logowanie_użytkownika</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Logowanie za pomocą username</a>
+<div class="">
+<span class="badge badge-default">USER.PT.004 Logowanie użytkownika - przypadek pozytywny.Logowanie za pomocą username</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Logowanie za pomocą email</a>
+<div class="">
+<span class="badge badge-default">USER.PT.004 Logowanie użytkownika - przypadek pozytywny.Logowanie za pomocą email</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>USER.PT.005 Logowanie użytkownika - przypadek negatywny - nieaktywne konto</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='6'>Logowanie za pomocą nieprawidłowej nazwy użytkownika</a>
+<div class="">
+<span class="badge badge-default">USER.PT.006 Logowanie użytkownika - przypadek negatywny - błędne dane.Logowanie za pomocą nieprawidłowej nazwy użytkownika</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='7'>Logowanie za pomocą nieprawidłowego hasła</a>
+<div class="">
+<span class="badge badge-default">USER.PT.006 Logowanie użytkownika - przypadek negatywny - błędne dane.Logowanie za pomocą nieprawidłowego hasła</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>USER.PT.007 Reset hasła - przypadek pozytywny</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>USER.PT.008 Reset hasła - przypadek negatywny - nieistniejący email</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='18'>Pobranie tokenu</a>
+<div class="">
+<span class="badge badge-default">USER.PT.012 Zmiana ustawień użytkownika - przypadek pozytywny.Pobranie tokenu</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='19'>Zmiana stylu strony na jasny</a>
+<div class="">
+<span class="badge badge-default">USER.PT.012 Zmiana ustawień użytkownika - przypadek pozytywny.Zmiana stylu strony na jasny</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='20'>Zmiana języka na angielski</a>
+<div class="">
+<span class="badge badge-default">USER.PT.012 Zmiana ustawień użytkownika - przypadek pozytywny.Zmiana języka na angielski</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">Zmiana_danych_i_ustawień_użytkownika</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Zmiana_danych_i_ustawień_użytkownika</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='11'>Pobranie tokenu</a>
+<div class="">
+<span class="badge badge-default">USER.PT.011 Zmiana danych użytkownika - przypadek pozytywny.Pobranie tokenu</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='12'>Zmiana nazwy użytkownika</a>
+<div class="">
+<span class="badge badge-default">USER.PT.011 Zmiana danych użytkownika - przypadek pozytywny.Zmiana nazwy użytkownika</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='13'>Logowanie za pomoca nowej nazwy użytkownika</a>
+<div class="">
+<span class="badge badge-default">USER.PT.011 Zmiana danych użytkownika - przypadek pozytywny.Logowanie za pomoca nowej nazwy użytkownika</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='14'>Zmiana email</a>
+<div class="">
+<span class="badge badge-default">USER.PT.011 Zmiana danych użytkownika - przypadek pozytywny.Zmiana email</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='15'>Logowanie za pomoca nowego email</a>
+<div class="">
+<span class="badge badge-default">USER.PT.011 Zmiana danych użytkownika - przypadek pozytywny.Logowanie za pomoca nowego email</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='16'>Zmiana na dane bazowe</a>
+<div class="">
+<span class="badge badge-default">USER.PT.011 Zmiana danych użytkownika - przypadek pozytywny.Zmiana na dane bazowe</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">Rejestracja_użytkownika</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Rejestracja_użytkownika</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>USER.PT.001 Rejestracja użytkownika - przypadek pozytywny</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>USER.PT.002 Rejestracja użytkownika - przypadek negatywny - użytkownik o podanych danych już istnieje</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='24'>Błędny format email</a>
+<div class="">
+<span class="badge badge-default">USER.PT.003 Rejestracja użytkownika - przypadek negatywny - błędne dane.Błędny format email</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='25'>Brak adresu email</a>
+<div class="">
+<span class="badge badge-default">USER.PT.003 Rejestracja użytkownika - przypadek negatywny - błędne dane.Brak adresu email</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='26'>Brak hasła</a>
+<div class="">
+<span class="badge badge-default">USER.PT.003 Rejestracja użytkownika - przypadek negatywny - błędne dane.Brak hasła</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:14:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='27'>Brak nazwy użytkownika</a>
+<div class="">
+<span class="badge badge-default">USER.PT.003 Rejestracja użytkownika - przypadek negatywny - błędne dane.Brak nazwy użytkownika</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul>
+<li>
+<a class="back-to-test" href="javascript:void(0)">
+<i class="fa fa-arrow-left"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>kwi 13, 2023 04:14:32 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>kwi 13, 2023 04:14:45 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>10</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>10</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>17</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>66</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Logowanie_użytkownika</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Zmiana_danych_i_ustawień_użytkownika</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Rejestracja_użytkownika</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 10,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 17,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 66,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@5cf22a596531402644b8523470526952516f345f/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
